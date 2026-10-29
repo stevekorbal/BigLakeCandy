@@ -1,0 +1,79 @@
+<section class="section" style="background:#f7f9ff">
+  <div class="container" style="max-width:900px">
+    <div class="card" style="border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,0.05)">
+      <div class="pad" style="padding:24px 24px 12px">
+        <h1 style="margin:0;color:var(--ink)">Privacy Policy</h1>
+        <p class="muted" style="margin:6px 0 0">Last updated: April 4, 2026</p>
+      </div>
+
+      <div class="pad" style="padding:0 24px 24px">
+        <p>Big Lake Candy Company (“we,” “us,” or “our”) operates <a href="https://biglakecandy.com">https://biglakecandy.com</a> (the “Site”). This Privacy Policy explains how we collect, use, and protect your information when you interact with our website, services, and communications.</p>
+
+        <h3>1. Information We Collect</h3>
+        <p>We may collect the following information:</p>
+        <ul>
+          <li>Name</li>
+          <li>Email address</li>
+          <li>Phone number</li>
+          <li>Billing and shipping address</li>
+          <li>Order details</li>
+        </ul>
+
+        <h3>2. How We Use Your Information</h3>
+        <p>We use your information to:</p>
+        <ul>
+          <li>Process and fulfill orders</li>
+          <li>Communicate with you about your orders or inquiries</li>
+          <li>Provide customer support</li>
+          <li>Improve our website and services</li>
+        </ul>
+
+        <h3>3. SMS Communications</h3>
+        <p>By providing your phone number, you consent to receive SMS (text) messages from Big Lake Candy Company related to your inquiries, orders, or services.</p>
+        <ul>
+          <li>Message frequency may vary</li>
+          <li>Message and data rates may apply</li>
+          <li>You can opt out at any time by replying <strong>STOP</strong></li>
+          <li>For help, reply <strong>HELP</strong> or contact us directly</li>
+        </ul>
+        <p>We do not share, sell, or rent your mobile information with third parties for marketing purposes.</p>
+
+        <h3>4. Sharing of Information</h3>
+        <p>We do not sell your personal information. We may share your information with:</p>
+        <ul>
+          <li>Payment processors (to complete transactions)</li>
+          <li>Shipping providers (to deliver your order)</li>
+          <li>Service providers who help operate our business</li>
+        </ul>
+
+        <h3>5. Data Security</h3>
+        <p>We take reasonable steps to protect your personal information. However, no method of transmission over the internet is 100% secure.</p>
+
+        <h3>6. Your Rights</h3>
+        <p>You may request to:</p>
+        <ul>
+          <li>Access your personal data</li>
+          <li>Correct your information</li>
+          <li>Delete your data</li>
+        </ul>
+        <p>To do so, contact us using the information below.</p>
+
+        <h3>7. Third-Party Services</h3>
+        <p>We may use third-party tools (such as payment processors or analytics providers) to operate our business. These services have their own privacy policies.</p>
+
+        <h3>8. Contact Information</h3>
+        <p>
+          <strong>Big Lake Candy Company</strong><br>
+          5632 Hillsboro Road<br>
+          Davisburg, MI 48350<br>
+          United States<br>
+          Phone: <a href="tel:+12482168175">248-216-8175</a><br>
+          Email: <a href="mailto:hello@biglakecandy.com">hello@biglakecandy.com</a>
+        </p>
+
+        <h3>9. Updates to This Policy</h3>
+        <p>We may update this Privacy Policy from time to time. Updates will be posted on this page with a revised date.</p>
+      </div>
+    </div>
+  </div>
+</section>

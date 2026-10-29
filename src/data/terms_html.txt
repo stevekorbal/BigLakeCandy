@@ -1,0 +1,51 @@
+<section class="section" style="background:#f7f9ff">
+  <div class="container" style="max-width:900px">
+    <div class="card" style="border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,0.05)">
+      <div class="pad" style="padding:24px 24px 12px">
+        <h1 style="margin:0;color:var(--ink)">Terms and Conditions</h1>
+        <p class="muted" style="margin:6px 0 0">Last updated: April 4, 2026</p>
+      </div>
+
+      <div class="pad" style="padding:0 24px 24px">
+        <p>Welcome to Big Lake Candy Company (“we,” “us,” or “our”). By using our website (<a href="https://biglakecandy.com">https://biglakecandy.com</a>) and services, you agree to the following terms.</p>
+
+        <h3>1. Use of Our Website</h3>
+        <p>You agree to use this website for lawful purposes only and not to misuse or interfere with its operation.</p>
+
+        <h3>2. Products and Orders</h3>
+        <p>We make every effort to ensure product descriptions and pricing are accurate. We reserve the right to refuse or cancel orders at any time.</p>
+
+        <h3>3. Payments</h3>
+        <p>All payments must be made at the time of purchase. We use secure third-party payment processors.</p>
+
+        <h3>4. Shipping and Returns</h3>
+        <p>Shipping and return policies are outlined on our website. Please review them before making a purchase.</p>
+
+        <h3>5. SMS Communications</h3>
+        <p>By providing your phone number, you consent to receive SMS (text) messages from Big Lake Candy Company related to your inquiries, orders, or services.</p>
+        <ul>
+          <li>Message frequency may vary</li>
+          <li>Message and data rates may apply</li>
+          <li>You can opt out at any time by replying <strong>STOP</strong></li>
+          <li>For assistance, reply <strong>HELP</strong> or contact us directly</li>
+        </ul>
+        <p>We do not send unsolicited messages. SMS messages are only sent in response to customer interactions or opt-ins.</p>
+
+        <h3>6. Limitation of Liability</h3>
+        <p>We are not liable for any indirect, incidental, or consequential damages resulting from the use of our website or products.</p>
+
+        <h3>7. Changes to Terms</h3>
+        <p>We may update these Terms and Conditions at any time. Updates will be posted on this page.</p>
+
+        <h3>8. Contact Information</h3>
+        <p>
+          <strong>Big Lake Candy Company</strong><br>
+          5632 Hillsboro Road<br>
+          Davisburg, MI 48350<br>
+          Phone: <a href="tel:+12487836803">248-783-6803</a><br>
+          Email: <a href="mailto:hello@biglakecandy.com">hello@biglakecandy.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

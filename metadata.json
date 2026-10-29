@@ -1,0 +1,6 @@
+{
+  "name": "Big Lake Candy Company",
+  "description": "Owosso, Michigan’s locally owned freeze-dried candy shop. Small-batch freeze-dried candy, fruit, and snacks made in Owosso, MI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

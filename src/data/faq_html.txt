@@ -1,0 +1,102 @@
+<section class="section" style="background:#f4f6fb">
+  <div class="container" style="max-width:1000px">
+
+    <div class="card" style="overflow:hidden;border-radius:20px">
+      <!-- Header -->
+      <div class="pad" style="padding:24px">
+        <div class="eyebrow">Help</div>
+        <h1 style="margin:.2rem 0 8px;color:var(--ink);font-weight:900">Frequently Asked Questions</h1>
+        <p class="muted" style="margin:0">
+          Quick answers about our freeze-dried candy, shipping, fundraising, and wholesale.
+        </p>
+      </div>
+
+      <!-- Vertical list (traditional FAQ) -->
+      <div class="pad" style="padding:0 24px 24px">
+        <div style="display:flex;flex-direction:column;gap:12px">
+
+          <details class="card" style="padding:16px;border-radius:16px">
+            <summary style="cursor:pointer;font-weight:900;color:var(--ink);list-style:none">
+              Where can I buy freeze-dried candy in Owosso, Michigan?
+            </summary>
+            <div style="margin-top:10px;color:#2a3250">
+              Big Lake Candy Company is Owosso's locally owned freeze-dried candy shop, located right here in Owosso, MI 48867.
+              You can visit us in-store, order online for local pickup, or have your order shipped. We're the only dedicated
+              freeze-dried candy shop serving Owosso and Shiawassee County.
+            </div>
+          </details>
+
+          <details class="card" style="padding:16px;border-radius:16px">
+            <summary style="cursor:pointer;font-weight:900;color:var(--ink);list-style:none">
+              What is freeze-dried candy?
+            </summary>
+            <div style="margin-top:10px;color:#2a3250">
+              Freeze-dried candy is made by placing your favorite treats into a vacuum chamber where nearly all moisture is removed.
+              The result is a lighter, crunchier, more intensely flavored version of the original candy. Popular freeze-dried treats
+              include Skittles, Nerd Clusters, Fruit Roll-Ups, and more. Big Lake Candy Company makes all of its freeze-dried products
+              in small batches in Owosso, Michigan.
+            </div>
+          </details>
+
+          <details class="card" style="padding:16px;border-radius:16px">
+            <summary style="cursor:pointer;font-weight:900;color:var(--ink);list-style:none">
+              Does Big Lake Candy Company offer fundraising programs?
+            </summary>
+            <div style="margin-top:10px;color:#2a3250">
+              Yes! Big Lake Candy Company is a popular fundraising partner for schools, sports teams, clubs, and organizations throughout
+              Shiawassee County and Mid-Michigan. Freeze-dried candy is a unique, high-demand product that's easy to sell.
+              To learn about our fundraising packages, visit our
+              <a href="wholesale.php" style="color:var(--accent);font-weight:800;text-decoration:none">fundraising &amp; wholesale page</a>.
+            </div>
+          </details>
+
+          <details class="card" style="padding:16px;border-radius:16px">
+            <summary style="cursor:pointer;font-weight:900;color:var(--ink);list-style:none">
+              Do you ship freeze-dried candy?
+            </summary>
+            <div style="margin-top:10px;color:#2a3250">
+              Yes. Big Lake Candy Company ships freeze-dried candy and snacks across Michigan and throughout the U.S.
+              You can order directly from our online store, and we also offer local pickup at our Owosso, Michigan storefront.
+            </div>
+          </details>
+
+          <details class="card" style="padding:16px;border-radius:16px">
+            <summary style="cursor:pointer;font-weight:900;color:var(--ink);list-style:none">
+              What freeze-dried candy flavors do you carry?
+            </summary>
+            <div style="margin-top:10px;color:#2a3250">
+              Our menu rotates and grows regularly, but popular items include freeze-dried Skittles (Arctic Crunch), freeze-dried Nerd
+              Clusters (Brain Bites), freeze-dried Fruit Roll-Ups (Fruit Wraps), freeze-dried bananas, freeze-dried ice cream, and a
+              variety of seasonal and specialty flavors. Visit our
+              <a href="shop.php" style="color:var(--accent);font-weight:800;text-decoration:none">shop</a>
+              to see what’s available.
+            </div>
+          </details>
+
+          <details class="card" style="padding:16px;border-radius:16px">
+            <summary style="cursor:pointer;font-weight:900;color:var(--ink);list-style:none">
+              Where are you located?
+            </summary>
+            <div style="margin-top:10px;color:#2a3250">
+              Big Lake Candy Company is located in Owosso, Michigan — right in the heart of Shiawassee County. We serve customers from
+              Owosso, Corunna, Durand, Chesaning, St. Johns, Flint, Lansing, and across Mid-Michigan.
+            </div>
+          </details>
+
+          <details class="card" style="padding:16px;border-radius:16px">
+            <summary style="cursor:pointer;font-weight:900;color:var(--ink);list-style:none">
+              Do you offer wholesale for local stores?
+            </summary>
+            <div style="margin-top:10px;color:#2a3250">
+              Yes. Big Lake Candy Company offers wholesale pricing for local retailers interested in carrying our freeze-dried candy products.
+              We're a Michigan-made, small-batch brand — a great fit for gift shops, specialty food stores, and local retailers across Mid-Michigan.
+              Get started on our <a href="wholesale.php" style="color:var(--accent);font-weight:800;text-decoration:none">wholesale page</a>.
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

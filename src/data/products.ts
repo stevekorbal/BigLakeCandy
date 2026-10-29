@@ -1,0 +1,278 @@
+export interface Product {
+  slug: string;
+  title: string;
+  price: string;
+  oldPrice?: string | null;
+  image: string;
+  weight: string;
+  description: string;
+  category: "candy" | "fruits" | "vegetables" | "icecream" | "desserts";
+  isSale: boolean;
+}
+
+export const PRODUCTS: Product[] = [
+  {
+    "slug": "brain-bites-nerd-clusters",
+    "title": "Brain Bites (Nerd Clusters)",
+    "price": "$7.00",
+    "oldPrice": null,
+    "image": "/assets/products/brain-bites.png",
+    "weight": "3 oz",
+    "description": "Crispy, crunchy, tangy clusters with a freeze-dried pop.<br />\r\n<br />\r\nContact us for availability!",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "fruit-wraps-roll-ups",
+    "title": "Fruit Wraps (Fruit Roll Ups)",
+    "price": "$7.00",
+    "oldPrice": "$12.99",
+    "image": "/assets/products/fruit-wraps.png",
+    "weight": "3 oz",
+    "description": "A crunchy twist on your childhood favorite.<br />\r\n<br />\r\nContact us for availability!",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "arctic-crunch-skittles",
+    "title": "Arctic Crunch (Skittles)",
+    "price": "$7.00",
+    "oldPrice": null,
+    "image": "/assets/products/arctic-crunch.png",
+    "weight": "3 oz",
+    "description": "Big flavor, bigger crunch. Taste the rainbow—turned up.<br />\r\n<br />\r\nContact us for availability!",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-bananas",
+    "title": "Freeze Dried Bananas",
+    "price": "$7.00",
+    "oldPrice": null,
+    "image": "/assets/products/bananas.png",
+    "weight": "3 oz",
+    "description": "Naturally sweet &amp; super crispy banana bites.<br />\r\n<br />\r\nContact us for availability!",
+    "category": "fruits",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-cosmic-apple",
+    "title": "Freeze Dried Cosmic Apple",
+    "price": "$7.00",
+    "oldPrice": null,
+    "image": "/assets/products/cosmic-apple.png",
+    "weight": "3 oz",
+    "description": "Tart apple ribbons with a lunar-light crunch.",
+    "category": "fruits",
+    "isSale": true
+  },
+  {
+    "slug": "very-berry-arctic-crunch-wild-berry-skittles",
+    "title": "Very Berry Arctic Crunch (Wild Berry Skittles)",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/very-berry-arctic-crunch.jpg",
+    "weight": "3 oz",
+    "description": "Wild Berry Skittles, freeze-puffed for extra crunch.",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "peach-rings",
+    "title": "Peach Rings",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/peach-rings.png",
+    "weight": "3 oz",
+    "description": "Juicy peachy rings with a crispy snap.",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "crunch-bears-gummy-bears",
+    "title": "Crunch Bears (Gummy Bears)",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/crunch-bears.jpg",
+    "weight": "3 oz",
+    "description": "Your favorite gummies, airy and crackly.<br />\r\n<br />\r\nContact us for availability!",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "magical-marshmallow-medley-lucky-charm-marshmallows",
+    "title": "Magical Marshmallow Medley (Lucky Charm Marshmallows)",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/magical-marshmallow-medley.png",
+    "weight": "3 oz",
+    "description": "Colorful cereal marshmallows that crunch like clouds.",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "cloud-puffs-airheads",
+    "title": "Cloud Puffs (Airheads)",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/cloud-puffs.png",
+    "weight": "3 oz",
+    "description": "Airheads reimagined as airy, bite-sized puffs.",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "meteor-duds-milk-duds",
+    "title": "Meteor Duds (Milk Duds)",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/meteor-duds-_milk-duds.png",
+    "weight": "3 oz",
+    "description": "Caramel-chocolate classics, puffed to the stars.",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "blue-raspberry-rings",
+    "title": "Blue Raspberry Rings",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/blue-raspberry-rings.png",
+    "weight": "3 oz",
+    "description": "Bright blue, super crisp raspberry rings.",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "sour-arctic-crunch-sour-skittles",
+    "title": "Sour Arctic Crunch (Sour Skittles)",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/arctic-crunch.png",
+    "weight": "3 oz",
+    "description": "Tart, tangy, and ultra-crispy Sour Skittles.",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "assorted-saltwater-taffy",
+    "title": "Assorted Saltwater Taffy",
+    "price": "$7.00",
+    "oldPrice": null,
+    "image": "/assets/products/assorted-saltwater-taffy.png",
+    "weight": "3 oz",
+    "description": "Classic boardwalk taffy turned airy and crunchy.",
+    "category": "candy",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-strawberries",
+    "title": "Freeze Dried Strawberries",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/strawberries.png",
+    "weight": "3 oz",
+    "description": "Bright strawberry slices with an ultra-light crunch.",
+    "category": "fruits",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-pineapple",
+    "title": "Freeze Dried Pineapple",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/pineapples.png",
+    "weight": "3 oz",
+    "description": "Tropical pineapple rings, tangy-sweet and crisp.",
+    "category": "fruits",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-blueberries",
+    "title": "Freeze Dried Blueberries",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/blueberry.png",
+    "weight": "3 oz",
+    "description": "Deep blueberry flavor in a crunchy bite.",
+    "category": "fruits",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-watermelon-rings",
+    "title": "Freeze Dried Watermelon Rings",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/freeze-dried-watermelon-rings.png",
+    "weight": "3 oz",
+    "description": "Juicy watermelon gummy rings, now feather-light and crispy.",
+    "category": "fruits",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-pickles",
+    "title": "Freeze Dried Pickles",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/Freeze-Dried-Pickles.png",
+    "weight": "3 oz",
+    "description": "Dill pickle chips with a loud, tangy crunch.",
+    "category": "vegetables",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-vanilla-ice-cream-sandwich",
+    "title": "Freeze Dried Vanilla Ice Cream Sandwich",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/Freeze-Dried-Vanilla-Ice-Cream-Sandwich.png",
+    "weight": "3 oz",
+    "description": "Classic vanilla sandwich—space-food style.",
+    "category": "icecream",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-neapolitan-ice-cream-sandwich",
+    "title": "Freeze Dried Neapolitan Ice Cream Sandwich – A Classic with a Crunch",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/Freeze-Dried-Vanilla-Ice-Cream-Sandwich.png",
+    "weight": "3 oz",
+    "description": "Chocolate, vanilla, and strawberry in a light, crispy bite.",
+    "category": "icecream",
+    "isSale": true
+  },
+  {
+    "slug": "cookies-n-cream-ice-cream-sandwich",
+    "title": "Cookies N Cream Ice Cream Sandwich – Freeze-Dried Delight",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/Cookies-N-Cream-Ice-Cream-Sandwich-Freeze-Dried-Delight.png",
+    "weight": "3 oz",
+    "description": "Cookies-and-cream bliss with a satisfying crunch.",
+    "category": "icecream",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-strawberry-shortcake-ice-cream-bar",
+    "title": "Freeze Dried Strawberry Shortcake Ice Cream Bar",
+    "price": "$7.00",
+    "oldPrice": "$12.00",
+    "image": "/assets/products/strawberry-shortcake-ice-cream-bar.png",
+    "weight": "3 oz",
+    "description": "Strawberry shortcake ice cream bar with a feather-light crumble.",
+    "category": "icecream",
+    "isSale": true
+  },
+  {
+    "slug": "freeze-dried-assorted-cheesecake-bites",
+    "title": "Freeze Dried Assorted Cheesecake Bites",
+    "price": "$7.00",
+    "oldPrice": null,
+    "image": "/assets/products/Freeze-Dried-Assorted-Cheesecake-Bites.png",
+    "weight": "3 oz",
+    "description": "Creamy cheesecake squares transformed into crunchy, dreamy bites.",
+    "category": "desserts",
+    "isSale": true
+  }
+];
