@@ -158,32 +158,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onNavigateCategory, 
         }}
       >
         <small>© 2026 Big Lake Candy Company. All rights reserved.</small>
-        <small>
-          <button
-            onClick={onLoginClick}
-            style={{
-              background: "transparent",
-              border: 0,
-              padding: 0,
-              color: "#ffffff",
-              marginRight: "12px",
-              cursor: "pointer",
-              textDecoration: "underline",
-              fontSize: "inherit",
-            }}
-          >
-            Login
-          </button>
-          Powered by{" "}
-          <a
-            href="https://pcguys.online"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "#ffffff" }}
-          >
-            PC Guys
-          </a>
-        </small>
+        
       </div>
     </footer>
   );
